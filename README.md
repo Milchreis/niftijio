@@ -1,6 +1,8 @@
 niftijio
 ========
 
+[![Release](https://jitpack.io/v/Milchreis/niftijio.svg)](https://jitpack.io/#Milchreis/niftijio)
+
 This project is a Java library for reading and writing NIfTI image volumes.
 This includes support for header metadata, various datatypes, and multichannel
 volumes.  When a volume is read from a file, the image intensities are stored
@@ -23,3 +25,20 @@ http://mindprod.com/jgloss/endian.html
 
 This is released under the MIT license.  Any comments can be directed to Ryan
 Cabeen at cabeen@gmail.com
+
+## Include to project
+### Maven
+If you want to use `UiBooster` than add the following to your pom.xml.
+```xml
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+```xml
+<dependency>
+    <groupId>com.github.Milchreis</groupId>
+    <artifactId>niftijio</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
