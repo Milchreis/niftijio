@@ -28,7 +28,7 @@ Cabeen at cabeen@gmail.com
 
 ## Include to project
 ### Maven
-If you want to use `UiBooster` than add the following to your pom.xml.
+If you want to use `niftijio` than add the following to your pom.xml.
 ```xml
 <repository>
     <id>jitpack.io</id>
