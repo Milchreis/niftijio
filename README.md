@@ -37,7 +37,7 @@ If you want to use `niftijio` than add the following to your pom.xml.
 ```
 ```xml
 <dependency>
-    <groupId>com.github.Milchreis</groupId>
+    <groupId>com.github.milchreis</groupId>
     <artifactId>niftijio</artifactId>
     <version>1.0.0</version>
 </dependency>
